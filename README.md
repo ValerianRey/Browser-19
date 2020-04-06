@@ -13,7 +13,8 @@ The code that we made for the search engine is in another repo: https://github.c
 
 ### Visualization: 
 Topic/Subtopic selection, graph visualizations: https://valerianrey.github.io/Covid19_Papers_V2/
-\nSearch engine: https://onefork.github.io/covid-19/
+
+Search engine: https://onefork.github.io/covid-19/
 
 ### Dataset: 
 https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
