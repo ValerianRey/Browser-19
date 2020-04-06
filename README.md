@@ -1,13 +1,25 @@
 # Browser-19
 Repository for the hackathon Lauzhack Against COVID-19
 
-This project aims to provide a visual way to browse through the papers related to the different coronaviruses. . We developped a graph structure of a subset of these papers to show how this can be an interesting visualization for researchers that want to quickly have an overview of the existing papers.
+This project aims to provide a visual way to browse through the papers related to the different coronaviruses. We used NLP tools to classify each paper with a topic and a subtopic, and we then built a network of the papers in each subtopic.
 
-We based our project on https://github.com/gsarti/covid-papers-browser and we use some of their code (located inside of the scripts folder), but we actually went in a totally different direction and we mostly worked on our original graph-based visualization. We also improved the search engine front end which will look like this: https://cdn.discordapp.com/attachments/693148333514162269/694199211142676480/covid.png
-The code that we made for this is in another repo: https://github.com/onefork/covid-19
+These networks helps the user to quickly get a visual idea of the existing papers in a field of research, and to see how close they are.
+On top of that, we want to have a search engine that will allow researchers to see about which topic and subtopic the queried papers are, and where they are located withing the network of papers of the subtopic.
 
-In the future we aim to provide this tool for the whole dataset.
+Our search engine is not completely linked to our visualization tool yet, but that will come soon.
 
-The visualization is available at: https://covid-19-papers-react.s3.us-east-2.amazonaws.com/index.html
+### Search engine repository:
+The code that we made for the search engine is in another repo: https://github.com/onefork/covid-19
 
-### Dataset: https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+### Visualization: 
+Topic/Subtopic selection, graph visualizations: https://valerianrey.github.io/Covid19_Papers_V2/
+Search engine: https://onefork.github.io/covid-19/
+
+### Dataset: 
+https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+
+### Original console browser: 
+https://github.com/gsarti/covid-papers-browser
+We use the idea of the search engine and some of their code (located in the scripts folder) that produces text embeddings from the abstracts of the papers.
+
+Disclaimer: some of the work was already done before the start of the Lauzhack hackathon (this project started a week before for the CodeVsCovid19 hackathon).
