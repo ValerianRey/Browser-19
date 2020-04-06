@@ -27,3 +27,5 @@ https://github.com/gsarti/covid-papers-browser
 We use the idea of the search engine and some of their code (located in the scripts folder) that produces text embeddings from the abstracts of the papers.
 
 Disclaimer: some of the work was already done before the start of the Lauzhack hackathon (this project started a week before for the CodeVsCovid19 hackathon).
+
+![Topic selection](images/topics.png)
