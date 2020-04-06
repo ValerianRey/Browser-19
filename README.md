@@ -1,4 +1,4 @@
-# CodeVsCovid19
+# Browser-19
 Repository for the hackathon CodeVsCovid19
 
 This project aims to provide a visual way to browse through the papers related to the different coronaviruses. (Dataset available at: https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge). We developped a graph structure of a subset of these papers to show how this can be an interesting visualization for researchers that want to quickly have an overview of the existing papers.
