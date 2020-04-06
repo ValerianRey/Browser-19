@@ -11,6 +11,8 @@ Our search engine is not completely linked to our visualization tool yet, but th
 ### Search engine repository:
 The code that we made for the search engine is in another repo: https://github.com/onefork/covid-19
 
+Note that it's just a front end that does not do an actual search, but the connection with the back end is almost done.
+
 ### Visualization: 
 Topic/Subtopic selection, graph visualizations: https://valerianrey.github.io/Covid19_Papers_V2/
 
