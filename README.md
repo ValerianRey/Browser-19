@@ -29,3 +29,5 @@ We use the idea of the search engine and some of their code (located in the scri
 Disclaimer: some of the work was already done before the start of the Lauzhack hackathon (this project started a week before for the CodeVsCovid19 hackathon).
 
 ![Topic selection](images/topics.png)
+![Graph full](images/full_graph.png)
+![Graph selection](images/selected_graph.png)
